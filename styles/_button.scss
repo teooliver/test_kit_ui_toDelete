@@ -1,0 +1,46 @@
+:root {
+  --primary: #4628ff;
+  --warning: #ffd028;
+  --danger: #eb3f27;
+  --success: #75fa83;
+  --white: #fdfdfd;
+  --black: #181717;
+}
+
+.btn {
+  font-weight: 400;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin: 2rem;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+/* Button Style */
+
+.btn--primary--solid {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: var(--white);
+}
+
+.btn--primary--outline {
+  background-color: transparent;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}
+
+/* Button Size */
+
+.btn--medium {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.btn--large {
+  padding: 15px 20px;
+  font-size: 20px;
+}

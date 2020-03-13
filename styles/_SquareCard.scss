@@ -1,0 +1,12 @@
+.SquareCard {
+  margin: 1rem;
+  height: 150px;
+  width: 200px;
+  background-color: var(--white);
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: 5px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}

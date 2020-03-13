@@ -1,0 +1,15 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+@import "./button";
+@import "./test";
+@import "./SquareCard";
+@import "./RadioOptions";
+@import "./Tiles";
